@@ -518,7 +518,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       "Your customized workout plan is ready",
                                       style: Theme.of(context)
                                           .textTheme
-                                          .title
+                                          .bodyText1
                                           .copyWith(color: Colors.black),
                                     ),
                                     Divider(),
@@ -591,14 +591,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                           "0 ",
                                           style: Theme.of(context)
                                               .textTheme
-                                              .title
+                                              .bodyText1
                                               .copyWith(color: Colors.teal),
                                         ),
                                         Text(
                                           "of 8k steps walked today",
                                           style: Theme.of(context)
                                               .textTheme
-                                              .title
+                                              .bodyText1
                                               .copyWith(color: Colors.black),
                                         ),
                                       ],
@@ -689,7 +689,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       "Your personalised diet plan is ready",
                                       style: Theme.of(context)
                                           .textTheme
-                                          .title
+                                          .bodyText1
                                           .copyWith(color: Colors.black),
                                     ),
                                     Divider(),
@@ -895,7 +895,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               "India's first social media for fitness",
                               style: Theme.of(context)
                                   .textTheme
-                                  .title
+                                  .bodyText1
                                   .copyWith(color: Colors.white),
                             ),
                             RaisedButton(
@@ -1043,7 +1043,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     item.name,
                                     style: Theme.of(context)
                                         .textTheme
-                                        .title
+                                        .bodyText1
                                         .copyWith(color: Colors.white),
                                   ),
                                 ),
